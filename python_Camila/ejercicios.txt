@@ -1,0 +1,70 @@
+1)
+
+
+nombre = input("Introduce tu nombre: ")
+
+numero = int(input("Introduce un número entero: "))
+
+
+contador = 0
+
+
+while contador < numero:
+    print(nombre)
+    contador += 1
+    
+
+
+2)
+
+nombre_completo = input("Introduce tu nombre completo: ")
+print(nombre_completo.lower())
+print(nombre_completo.upper())
+print(nombre_completo.title())
+
+3)
+
+
+nombre = input("Introduce tu nombre: ")
+print(nombre.upper() + " tiene " + str(len(nombre)) + " letras")
+
+
+4)
+para sacar el prefijo y extension sabiendo el largo de la lista
+
+numero = input("Introduce numero de telefono con el prefijo-numero-extension: ")
+print("el numero de telefono que ingreso es: ", numero[4:-3])
+
+
+5)
+para invertir la frase
+
+frase = input("Introduce su frase: ")
+print(frase[::-1])
+
+6) reemplaza la vocal puesta en la frase
+
+frase = input("Introduce su frase: ")
+
+vocal = input("Introduce una vocal: ")
+print(frase.replace(vocal,vocal.upper()))
+
+
+7)
+reemplaza el dominio del correo
+
+
+correo = input("Introduce tu correo: ")
+
+print(correo [:correo.find("@")] + "@crui.edu")
+
+8)
+separar euros con centavos
+
+
+precio = input("Introduce el precio en euros con dos decimales: ")
+
+print(precio[:precio.find(".")], "Euros con", precio[precio.find(".")+1:], "centavos")
+
+9)
+
